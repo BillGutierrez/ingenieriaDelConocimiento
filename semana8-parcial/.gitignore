@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.eggs/
+build/
+dist/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Project runtime artifacts
+dataset/
+data/
+cache_*.npy
+cache_*.npz
+*.keras
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.pickle
+hist_*.json
+model_*.keras
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+.python-version
+kaggle.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+actividad2_cnn.py
